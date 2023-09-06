@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+
+
+.rc {
+  width: 75px;
+  height: 75px;
+
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 1px rgb(32, 32, 32);
+  box-sizing: border-box;
+  position: absolute;
+  left: 25%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  padding: 0;
+
+  
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center
+}
+
+.restart > img {
+  width: 50px;
+  height: 50px;
+}
+
